@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  time: MyString
+  date: MyString
+  players: 1
+  price: 1
+  holes: 1
+  user_id: 1
+  course_id: 1
+  status: MyString
+
+two:
+  time: MyString
+  date: MyString
+  players: 1
+  price: 1
+  holes: 1
+  user_id: 1
+  course_id: 1
+  status: MyString
