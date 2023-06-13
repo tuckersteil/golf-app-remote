@@ -223,7 +223,7 @@ span + span {
   display: "inline-block";
   margin-left: "15rem";
   margin-right: "auto";
-  width: "35%";
+  width: "55%";
   color: #eeff00;
 }
 
@@ -249,6 +249,7 @@ background-color:white;
   color: red;
   position: relative;
   margin: 2rem;
+  display: "inline-block";
 }
 
 .navc{
