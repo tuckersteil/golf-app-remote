@@ -245,16 +245,24 @@ background-color:white;
 
 }
 
+.karen {
+  display: "inline-block";
+  /* margin-left: "20rem";
+  margin-right: "auto";
+  width: "75%"; */
+  color: #eeff00;
+}
+
 .navB{
   color: red;
   position: relative;
-  margin: 2rem;
+  margin: 1rem;
   display: "inline-block";
 }
 
 .navc{
   position: relative;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .posty{

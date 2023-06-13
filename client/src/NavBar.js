@@ -19,34 +19,25 @@ function NavBar({ user, setUser }) {
         navigate("/myteetimes")
     }
 
-    //   const linkStyles = {
-    //     display: "inline-block",
-    //     marginLeft: "15rem",
-    //     marginRight: "auto",
-    //     width: "35%",
-    //   }
+      const linkStyles = {
+        display: "inline-block",
+        marginLeft: "30rem",
+        marginRight: "auto",
+        width: "35%"
+      }
+    //   style={linkStyles}
 
       
      
 
 return (
     <div >
-        <h1 >
-            Last Minute Tee Times
-        </h1>
+        <h1 className="karen"  style={linkStyles}>Last Minute Tee Times</h1>
         <span className="navB">
-            <button>Home</button>
-          <button className="navc"> 
-           My Tee-times
-          </button>
-         
+            <button className="navc" onClick={goHome}>Home</button>
+            <button className="navc" onClick={goBookings}>My Tee-times</button>
             <button className="navB" variant="outline"  onClick={handleLogoutClick}>Logout</button>
-          
-          
         </span>
-        
-        
-    
     </div>
 )
 }
