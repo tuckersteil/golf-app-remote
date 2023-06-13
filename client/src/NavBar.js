@@ -19,12 +19,13 @@ function NavBar({ user, setUser }) {
         navigate("/myteetimes")
     }
 
-      const linkStyles = {
-        display: "inline-block",
-        marginLeft: "15rem",
-        marginRight: "auto",
-        width: "55%",
-      }
+    //   const linkStyles = {
+    //     display: "inline-block",
+    //     marginLeft: "15rem",
+    //     marginRight: "auto",
+    //     width: "35%",
+    //     color: #eeff00
+    //   }
 
       
      
@@ -32,7 +33,7 @@ function NavBar({ user, setUser }) {
 return (
     <div >
         <h1 style={linkStyles}>
-            <button className="sizey" onClick={goHome}>Last Minute Tee Times</button> 
+            Last Minute Tee Times
         </h1>
         <span className="navB">
           <button className="navc" onClick={goBookings}> 
