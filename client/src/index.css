@@ -220,9 +220,10 @@ span + span {
 
 .sizey{
 
-  text-align: center;
-  margin-bottom: .5rem;
-  margin-left: 35%;
+  display: "inline-block";
+  margin-left: "15rem";
+  margin-right: "auto";
+  width: "35%";
   color: #eeff00;
 }
 
