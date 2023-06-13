@@ -32,9 +32,10 @@ function NavBar({ user, setUser }) {
 return (
     <div >
         <h1 style={linkStyles}>
-            <button className="sizey" onClick={goHome}>Last Minute Tee Times</button> 
+            Last Minute Tee Times
         </h1>
         <span className="navB">
+        <button className="navc" onClick={goHome}>Home</button> 
           <button className="navc" onClick={goBookings}> 
             My Tee-times
           </button>
