@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# Phase-4 Project 
+My phase 4 project called "Last minute tee times", where users can post and book tee times.  The purpose of this project is to allow golfers to repost a tee time that theyve already booked with a course, where they can no longer make it or just dont want it anymore rather than canceling that time (where they might be charged) or just not using it. While also being able to book posted teetimes from other users.  The intent is allow golfers another location to find tee times and to make sure all tee times are being used rather than wasted. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Functionality 
+1. To use the site a user must sign up for an account first. After doing so they can log in and will be taken to the home page.
+2. The home page will display a list of golf courses, to which they can click on one and be taken to that course page. 
+3. Once theyre on the course page the user will be able to see teetimes for that current day, and additionally be able to toggle dates on a calendar to see teetimes for other days. 
+4. While still on the course page, a user can book tee times or post a tee time for other users to book. 
+5. If they choose to book one, they will be taken to a confirmation page where they can confirm booking, which will then take them to their tee times page which displays posted and booked teetimes for that user. 
+6. If they choose to post a tee time, a pop up form will appear for them to do so, and after hitting submit it will post that teetime for that course, time, and date. The user can see their posted tee time either on the course's page or in the "my tee times" tab in the nav bar. 
 
-## Available Scripts
+# Future use 
+As of now, if you were to book a teetime that another user posted it would show up in your booked teetimes and no longer in the other users posted teetimes.  So an additional funtionality that would be needed in the app is a payment system, that tracks the exchanging of teetimes in addition to charging users for booking and paying other users for selling. 
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Credit
+I used course pictures and information from golfnow.com
