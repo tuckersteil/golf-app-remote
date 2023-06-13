@@ -38,7 +38,7 @@ return (
         <span className="navB">
         <button className="navc" onClick={goHome}>Home</button> 
           <button className="navc" onClick={goBookings}> 
-            My Tee-times
+            My Tee times
           </button>
          
             <button className="navB" variant="outline"  onClick={handleLogoutClick}>Logout</button>
