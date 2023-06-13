@@ -9,4 +9,4 @@ cp -a client/build/. public/
 
 bundle install
 bundle exec rake db:migrate
-bundle exec rake db:reset
+bundle exec rake db:reset DISABLE_DATABASE_ENVIRONMENT_CHECK=1
